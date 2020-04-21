@@ -14,6 +14,8 @@
 		559C4C93244F65AA00B0F64B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559C4C92244F65AA00B0F64B /* Assets.xcassets */; };
 		559C4C96244F65AA00B0F64B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559C4C95244F65AA00B0F64B /* Preview Assets.xcassets */; };
 		559C4C99244F65AA00B0F64B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559C4C97244F65AA00B0F64B /* LaunchScreen.storyboard */; };
+		559C4CA1244F666600B0F64B /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C4CA0244F666600B0F64B /* ToDoItem.swift */; };
+		559C4CA3244F6F9B00B0F64B /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559C4CA2244F6F9B00B0F64B /* ToDoItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		559C4C95244F65AA00B0F64B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		559C4C98244F65AA00B0F64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		559C4C9A244F65AA00B0F64B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559C4CA0244F666600B0F64B /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		559C4CA2244F6F9B00B0F64B /* ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				559C4C89244F65A600B0F64B /* AppDelegate.swift */,
 				559C4C8B244F65A600B0F64B /* SceneDelegate.swift */,
 				559C4C90244F65A600B0F64B /* ContentView.swift */,
+				559C4CA2244F6F9B00B0F64B /* ToDoItemView.swift */,
+				559C4CA0244F666600B0F64B /* ToDoItem.swift */,
 				559C4C92244F65AA00B0F64B /* Assets.xcassets */,
 				559C4C97244F65AA00B0F64B /* LaunchScreen.storyboard */,
 				559C4C9A244F65AA00B0F64B /* Info.plist */,
@@ -151,8 +157,10 @@
 			files = (
 				559C4C8A244F65A600B0F64B /* AppDelegate.swift in Sources */,
 				559C4C8F244F65A600B0F64B /* TODO_SwiftUI.xcdatamodeld in Sources */,
+				559C4CA1244F666600B0F64B /* ToDoItem.swift in Sources */,
 				559C4C91244F65A600B0F64B /* ContentView.swift in Sources */,
 				559C4C8C244F65A600B0F64B /* SceneDelegate.swift in Sources */,
+				559C4CA3244F6F9B00B0F64B /* ToDoItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
